@@ -22,5 +22,7 @@
         * Classes confundem tanto pessoas quanto máquinas;
         * Auxiliam em uma melhor performance.
     
-# reactHooks
-# reactHooks
+# O que é o useContext?
+   > Segundo o site oficial do React
+   "Aceita um objeto de contexto (O valor retornado de React.createContext) e retorna o valor atual do contexto. O valor de contexto
+   atual é determinado pela prop value do<MyContext.Provider>mais próximo acima do componente de chamada na árvore".
