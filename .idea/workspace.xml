@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74373b97-303b-407d-aa1b-29577fd90880" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/usestate/src/hooks/Exemplo01_useState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usestate/src/hooks/Exemplo02_MultiplosUseState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usestate/src/hooks/Exemplo03_MultiplosUseState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usestate/src/hooks/Exercicio01.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usestate" beforeDir="false" afterPath="$PROJECT_DIR$/usestate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usestate/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/usestate/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usestate/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usestate/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usestate/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usestate/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usestate/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/usestate/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usestate/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usestate/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usestate/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,14 +26,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/usestate" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2d3Klnpe9ky4jQirDSWITFqRvhg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,8 +46,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/carolina/Documentos/projetos/reacthooks/usestate",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/carolina/Documentos/projetos/reacthooks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709231474832</updated>
       <workItem from="1709231476025" duration="1478000" />
+      <workItem from="1709247995646" duration="87000" />
     </task>
     <servers />
   </component>
