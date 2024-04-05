@@ -26,3 +26,7 @@
    > Segundo o site oficial do React
    "Aceita um objeto de contexto (O valor retornado de React.createContext) e retorna o valor atual do contexto. O valor de contexto
    atual é determinado pela prop value do<MyContext.Provider>mais próximo acima do componente de chamada na árvore".
+
+# Hook userRef
+   O hooks useRef é utilizado para manipularmos elementos Html sem precisar realizr um render.
+   Um uso muito comum desse hook é formulario. Utilizamos o Dom (Document Object Model), podemos alterar caracteristicas de elementos HTML como : corre, bordas, sombras, adicionar/remover textos, entre outras funcionalidades

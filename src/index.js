@@ -12,14 +12,15 @@ import ReactDOM from "react-dom";
 //import Exemplo01_useState from "./hooks/Exemplo01_useState";
 //import Exemplo07_UseContext from "./hooks/Exemplo07_UseContext";
 //import Exemplo07_UseContext1 from "./hooks/Exemplo07_UseContext1";
-import Exemplo07_UseContext2 from "./hooks/Exemplo07_UseContext2";
+//import Exemplo07_UseContext2 from "./hooks/Exemplo07_UseContext2";
+import Exemplo08_useRef from "./hooks/Exemplo08_useRef";
 
 //Componente
 class Principal extends React.Component{
     render() {
         return(
             <div>
-                <Exemplo07_UseContext2/>
+                <Exemplo08_useRef/>
             </div>
 
 
