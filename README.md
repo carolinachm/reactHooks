@@ -30,3 +30,9 @@
 # Hook userRef
    O hooks useRef é utilizado para manipularmos elementos Html sem precisar realizr um render.
    Um uso muito comum desse hook é formulario. Utilizamos o Dom (Document Object Model), podemos alterar caracteristicas de elementos HTML como : corre, bordas, sombras, adicionar/remover textos, entre outras funcionalidades
+   
+# Hook useReducer
+   Segundo a documentação oficial do REact: "O useReducer é geralmente preferivel em relacao ao useState quando se tem uma lógica de estudo complexa que envolve mútiplos sub-valores"
+   ---
+Estrutura ustilizada state: const [state, setState] =useState(0);
+Estrutura utilizada reducer: const [state, dispatch] = useReduce(reducer, initialArg, init);
