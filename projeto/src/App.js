@@ -30,6 +30,33 @@ function App() {
         setCidade('')
 
     }
+    //Função para alterar os dados
+    const alterar = () => {
+        let obj = {
+            'nome': nome,
+            'idade': idade,
+            'cidade': cidade
+        }
+        let copiaVetor = [...vetor];
+        copiaVetor[indiceVetor] = obj;
+        setVetor(copiaVetor);
+
+        setNome('');
+        setIdade('');
+        setCidade('');
+        setBtnCadastro(true);
+    }
+    //Função para remover usuario
+    const remover = () => {
+        let copiaVetor = [...vetor]
+        copiaVetor.splice(indiceVetor, 1);
+        setVetor(copiaVetor);
+
+        setNome('');
+        setIdade('');
+        setCidade('');
+        setBtnCadastro(true);
+    }
     //funcao para selecionar o usuario
     const selecionar = (indice) => {
        setIndiceVetor(indice);
@@ -40,11 +67,18 @@ function App() {
 
        setBtnCadastro(false)
     }
+    //funcao para cancelar edição ou remoção
+    const cancelar = () => {
+        setNome('');
+        setIdade('');
+        setCidade('');
+        setBtnCadastro(true);
+    }
 
     return (
         <div>
 
-            <Formulario btnCadastro={btnCadastro} setNome={setNome} setIdade={setIdade} setCidade={setCidade}
+            <Formulario btnCadastro={btnCadastro} alterar={alterar} remover={remover} cancelar={cancelar} setNome={setNome} setIdade={setIdade} setCidade={setCidade}
                         cadastrar={cadastrar} nome={nome} idade={idade} cidade={cidade}/>
             <Tabela vetor={vetor} selecionar={selecionar} />
         </div>
