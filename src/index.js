@@ -1,7 +1,7 @@
 //importar modulos
 import React from "react";
 import ReactDOM from "react-dom";
-import Exemplo09_useReduce from "./hooks/Exemplo09_useReduce";
+import Exemplo11_useCallback from "./hooks/Exemplo11_useCallback";
 
 
 //import Exercicio01 from "./hooks/Exercicio01";
@@ -15,13 +15,17 @@ import Exemplo09_useReduce from "./hooks/Exemplo09_useReduce";
 //import Exemplo07_UseContext1 from "./hooks/Exemplo07_UseContext1";
 //import Exemplo07_UseContext2 from "./hooks/Exemplo07_UseContext2";
 //import Exemplo08_useRef from "./hooks/Exemplo08_useRef";
+//import Exemplo10_useMemo from "./hooks/Exemplo10_useMemo";
+
+
 
 //Componente
 class Principal extends React.Component{
     render() {
         return(
             <div>
-                <Exemplo09_useReduce/>
+                <Exemplo11_useCallback/>
+
             </div>
 
 

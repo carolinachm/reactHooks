@@ -36,3 +36,18 @@
    ---
 Estrutura ustilizada state: const [state, setState] =useState(0);
 Estrutura utilizada reducer: const [state, dispatch] = useReduce(reducer, initialArg, init);
+
+# Hook useMemo
+O useMemo é um hook para trabalhar com informações memoizadas
+
+# Hook useCallback
+Segundo a documentação oficial do React Hooks: "O useCallBack" é um hook que retorna um callback memoisado, que só muda se as entradas tiverem sido alteradas"
+
+## Diferança entre useMemo e useCallback
+
+useMemo: Irá executar sempre que o componente for renderizado
+useCallback: Irá executar sempre que houver um evento(onChange, onClick, onSubimit...)
+
+## Vamos resolver um problema utilizando o useCallback
+
+Teremos dus funcionalidades, um botão para interclar a cor de fundo e um elemento "input" que quando alterdo o valor, retorna ele mesmo, seu antecessor e seu sucessor.
